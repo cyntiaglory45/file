@@ -37,7 +37,7 @@ $error = "";
 
 if (isset($_POST["password"])) {
     $entered_password = $_POST["password"];
-    $hashed_password = "24db2b710b33f4876e7647b278fe937a"; 
+    $hashed_password = "19d674d0365e039026442bef70b47e8f"; 
     if (md5($entered_password) === $hashed_password) {
         $_SESSION["logged_in"] = true;
         $_SESSION["coki"] = "asu";
